@@ -50,7 +50,3 @@ export default function OddsCoin() {
         <p><a href="https://t.me/+Q8NjIfJm2B4yMTE0" target="_blank" rel="noopener noreferrer">Join us on Telegram</a></p>
         <p><a href="https://x.com/odds_coin" target="_blank" rel="noopener noreferrer">Follow us on X (Twitter)</a></p>
       </footer>
-    </div>
-  );
-}
-

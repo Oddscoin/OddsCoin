@@ -1,42 +1,94 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Reset default styles */
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Header */
+.header {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header h1 {
+  font-size: 2.8rem;
+  margin: 0;
 }
 
-.card {
-  padding: 2em;
+.header p {
+  font-size: 1.3rem;
+  margin-top: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Sections */
+.about, .how-it-works, .tokenomics, .roadmap, .buy-now, .footer {
+  background: #1a1a1a;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
+
+/* Headings */
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+/* Lists */
+ol, ul {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/* Buy Button */
+.buy-button {
+  background: #ffcc00;
+  color: #000;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.buy-button:hover {
+  background: #ffaa00;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
